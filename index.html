@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">   
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Api</title>
+</head>
+<body>
+    
+    <section class="weather-app mx-auto p-5 mt-5">
+        <div class="weather">
+            <div class="search d-flex align-items-center justify-content-center">
+                <input type="text" class="form-control me-1" placeholder="Enter City Name">
+                <button class="btn btn-dark"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="details text-center">
+                    <img src="clouds.png" alt="" class="weather-icon">
+                    <h1 class="temp">20°C</h1>
+                    <h2 class="city">New York</h2>
+                <div class="condition-details row align-items-center justify-content-center mt-4">
+                        <div class="column col-md-6">
+                            <i class="fa-solid fa-water fa-4x pe-3"></i>
+                             <div class="column-details">
+                                <p class="humidity p-0 m-0">20 %</p>
+                                <p>Humidity</p>
+                             </div>
+                            
+                        </div>
+                        <div class="column col-md-6">
+                            <i class="fa-solid fa-wind fa-4x pe-3"></i>
+                            <div class="column-details">
+                                <p class="wind p-0 m-0">15Km/h</p>
+                                <p>Wind Speed</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
